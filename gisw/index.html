@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using OpenLayers with Vite</title>
+  </head>
+  <body>
+    <div id="Selekcija">
+      <input checked="checked" type="checkbox" id="Opcija1" name="Opcija1" value="0">
+      <label for="Opcija1"> Pruge</label><br>
+      <input checked="checked" type="checkbox" id="Opcija2" name="Opcija2" value="1">
+      <label for="Opcija2"> Pumpe</label><br>
+      <input checked="checked" type="checkbox" id="Opcija3" name="Opcija3" value="2">
+      <label for="Opcija3"> Administrativne granice</label>
+    </div>
+    <div id="map">
+      <div id="popup" class="ol-popup">
+        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+        <div id="popup-content"></div>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
+
+<!-- Zapamti npm run build -->
